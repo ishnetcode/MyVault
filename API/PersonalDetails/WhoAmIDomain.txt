@@ -1,0 +1,11 @@
+I am Domain/Core layer of PersonalDetails Microservice. And All dependencies should come towards.
+I am holding the responsibility of:
+1) Creating entities (mutable), value objects(immutable), aggregates(Domain driven design) & enums
+
+I cannot:
+1) Hold any business logic
+2) be access directly via main API/UI () 
+
+
+I can:
+1) Connected/referenced via Application/Infrastructure

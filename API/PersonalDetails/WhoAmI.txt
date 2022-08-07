@@ -1,0 +1,14 @@
+I am Application layer of PersonalDetails Microservice. 
+I am holding the responsibility of:
+1) Creating Interfaces to establish the relation between Infrastructure & Main API (program.cs)
+2) Executing the CQRS to call services from Infrastructure
+3) Validations  for the Models
+
+I cannot:
+1) Call services directly, so it has to be via Infrastructure.
+2) Call Database APIs
+
+
+I can be:
+1) Connected/referenced via Main API or Infrastructure  
+

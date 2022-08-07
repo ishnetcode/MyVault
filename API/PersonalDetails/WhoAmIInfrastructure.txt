@@ -1,0 +1,8 @@
+I am Infrastructure layer of PersonalDetails Microservice. 
+I am holding the responsibility of:
+1) Connecting the services directly
+2) Connecting database
+3) taking care of logging
+
+I cannot:
+1) be accessed directly via Main API. however will have to use it via Main API project for DI 
